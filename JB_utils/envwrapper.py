@@ -35,8 +35,9 @@ class JALIB_ENV:
     def log_env(self):
         for i, env in enumerate( self.cache_env):
             with  open(f'./ENVCACHE_backup_{i}.log', 'w') as f:
-                path_table = str(env.get('path'))
-                f.write(path_table)
+                path_table =env
+                print(path_table)
+                f.write(str(path_table))
                 f.close()
         
     def restore(self):
@@ -61,18 +62,9 @@ class JALIB_ENV:
           
 
 
-jerion = JALIB_ENV();
-
-env = jerion.Get();
-
-upath = jerion.GetRawUserPath();
-jerion.PrintEnvPath(upath);
-
-# jerion.checkdiff(env);
-# jerion.log_env();
-
-
-
+def GetBashrcPath():
+    
+    return JALIB_ENV().Get()['UserProfile'] + ("/.bashrc")
 
 
 
