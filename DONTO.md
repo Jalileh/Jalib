@@ -5,3 +5,7 @@ A = {
 B = {   
     CAT CAT CAT 
 }
+
+C = {   
+    CAT CAT CAT 
+}
