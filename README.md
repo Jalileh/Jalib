@@ -4,3 +4,11 @@ This project should setup our shell bloat and choco, neovim, environment variabl
 MAIN_VERSION=1.3.1
 
 oclas=4
+
+
+
+
+DEX=4
+
+
+Appron = 4;
