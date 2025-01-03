@@ -10,8 +10,6 @@ def AddShellPaths():
     with open(bashrc_PathName, "a") as f:
         for name in scriptPathNames:
             f.write(f'#PathGen\nexport PATH="${{PATH}}:{name}"')
-            
-
 AddShellPaths()
         
     
