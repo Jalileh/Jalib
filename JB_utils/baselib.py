@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 import os, sys
 from collections.abc import Mapping
-
+def throwUWSError(string):
+    raise Exception(["[UWS PY]:"],string)
 
 class JALIB_ENV:
     def __init__(self):
@@ -66,7 +67,8 @@ def GetBashrcPath():
     
     return JALIB_ENV().Get()['UserProfile'] + ("/.bashrc")
 
-
+def GetUserProfile():
+    return JALIB_ENV().Get()['UserProfile']  
 
 
 
