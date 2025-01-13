@@ -10,7 +10,8 @@ scriptPathNames = [f"{jb.GetUserProfile()}/Desktop/PagefileMon",
                    f"{jb.GetUserProfile()}//jalib/shell",
                    f"{jb.GetUserProfile()}//jalib/shell/bin",
                    f"{jb.GetUserProfile()}//jalib/shell/pykek",
-                   f"{jb.GetUserProfile()}//jalib/shell/processor"
+                   f"{jb.GetUserProfile()}//jalib/shell/processor",
+                   f"{jb.GetUserProfile()}//jalib/git-automation"
 ]
 
 
@@ -28,7 +29,7 @@ def AddShellPaths():
 BASHRC_DATA = """
 
 alias g="git.sh"
-alias g2= "git-automation.sh"
+alias g2="wrapper-run.sh"
 alias pjc="pjconf.sh"
 alias pjm="pjm.sh"
 
