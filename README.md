@@ -4,8 +4,7 @@ This project should setup our shell bloat and choco, neovim, environment variabl
 this project is discontinued until g2 is fully implemented
 
 
-sqlite3 python is currently implemented:
-
+ 
 
 
 
