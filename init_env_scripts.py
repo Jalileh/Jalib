@@ -62,14 +62,17 @@ alias sd='pjc sd'
 alias bd='pjc bd'
 alias br='pjc br'
 
+ 
 
 alias restart='g restart'
 
 alias nv='startNvim.sh'
 alias nvim='startNvim.sh'
 
-
 alias branch='g branch'
+
+
+export TERM=xterm
 """
 
 
